@@ -1,6 +1,7 @@
 /*!
- * jar v0.0.1: A tiny helper library that makes working with cookies a bit easier.
- * (c) 2018 Chris Ferdinandi
+ * cookiejarjs v0.0.1
+ * A tiny helper library that makes working with cookies a bit easier.
+ * (c) 2019 Chris Ferdinandi
  * MIT License
  * http://github.com/cferdinandi/jar
  */

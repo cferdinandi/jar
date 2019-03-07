@@ -1,6 +1,8 @@
 # Jar [![Build Status](https://travis-ci.org/cferdinandi/jar.svg)](https://travis-ci.org/cferdinandi/jar)
 A tiny (< 1kb) helper library that makes working with cookies a bit easier.
 
+[Installation](#installation) | [API](#api) | [Browser Compatibility](#browser-compatibility) | [License](#license)
+
 <hr>
 
 ### Want to learn how to write your own vanilla JS libraries? Check out my [Vanilla JS Pocket Guides](https://vanillajsguides.com/) or join the [Vanilla JS Academy](https://vanillajsacademy.com) and level-up as a web developer. 🚀
@@ -8,7 +10,7 @@ A tiny (< 1kb) helper library that makes working with cookies a bit easier.
 <hr>
 
 
-## Installing Jar
+## Installation
 
 Compiled and production-ready code can be found in the `dist` directory. The `src` directory contains development code.
 
@@ -41,7 +43,7 @@ You can also use the [jsDelivr CDN](https://cdn.jsdelivr.net/gh/cferdinandi/jar/
 
 
 
-## Methods
+## API
 
 ### `set()`
 
@@ -83,26 +85,6 @@ Delete a cookie.  Pass in the cookie name as an argument.
 // Delete the `sandwich` cookie
 jar.remove('sandwich');
 ```
-
-
-
-## Working with the Source Files
-
-If you would prefer, you can work with the development code in the `src` directory using the included [Gulp build system](http://gulpjs.com/). This compiles, lints, and minifies code.
-
-### Dependencies
-Make sure these are installed first.
-
-* [Node.js](http://nodejs.org)
-* [Gulp](http://gulpjs.com) `sudo npm install -g gulp`
-
-### Quick Start
-
-1. In bash/terminal/command line, `cd` into your project directory.
-2. Run `npm install` to install required files.
-3. When it's done installing, run one of the task runners to get going:
-	* `gulp` manually compiles files.
-	* `gulp watch` automatically compiles files when changes are made and applies changes using [LiveReload](http://livereload.com/).
 
 
 
