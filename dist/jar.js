@@ -1,5 +1,5 @@
 /*!
- * cookiejarjs v0.0.1
+ * jarvanillajs v0.0.1
  * A tiny helper library that makes working with cookies a bit easier.
  * (c) 2019 Chris Ferdinandi
  * MIT License

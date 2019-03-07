@@ -1,5 +1,5 @@
 {
-	"name": "cookiejarjs",
+	"name": "jarvanillajs",
 	"version": "0.0.1",
 	"description": "A tiny helper library that makes working with cookies a bit easier.",
 	"main": "./dist/jar.min.js",
