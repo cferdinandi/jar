@@ -41,6 +41,13 @@ You can also use the [jsDelivr CDN](https://cdn.jsdelivr.net/gh/cferdinandi/jar/
 <script src="https://cdn.jsdelivr.net/gh/cferdinandi/jar@1.0.0/dist/jar.min.js"></script>
 ```
 
+**NPM**
+
+You can also use NPM (or your favorite package manager).
+
+```bash
+npm install jarvanillajs
+```
 
 
 ## API
