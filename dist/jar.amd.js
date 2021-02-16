@@ -1,6 +1,5 @@
 /*! jar v1.0.0 | (c) 2021 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/jar */
-var jar = (function () {
-	'use strict';
+define(function () { 'use strict';
 
 	// Default settings
 	let defaults = {
@@ -60,4 +59,4 @@ var jar = (function () {
 
 	return jar;
 
-}());
+});
