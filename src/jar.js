@@ -12,7 +12,7 @@ let defaults = {
 function getSettings (options = {}) {
 	let settings = Object.assign({}, defaults, options);
 	return Object.entries(settings).map(function (option) {
-		if (option[0] === 'secure') return options[1] === 'true' ? option[0] : '';
+		if (['secure', 'httponly'].includes(option[0].toLowerCase())) return options[1] === 'true' ? option[0] : '';
 		return `${option[0]}=${option[1]}`;
 	}).join('; ');
 }
