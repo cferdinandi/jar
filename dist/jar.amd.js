@@ -1,4 +1,4 @@
-/*! jar v1.0.1 | (c) 2021 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/jar */
+/*! jar v1.0.2 | (c) 2024 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/jar */
 define(function () { 'use strict';
 
 	// Default settings
@@ -15,7 +15,7 @@ define(function () { 'use strict';
 	function getSettings (options = {}) {
 		let settings = Object.assign({}, defaults, options);
 		return Object.entries(settings).map(function (option) {
-			if (['secure', 'httponly'].includes(option[0].toLowerCase())) return options[1] === 'true' ? option[0] : '';
+			if (['secure', 'httponly'].includes(option[0].toLowerCase())) return option[1] === 'true' ? option[0] : '';
 			return `${option[0]}=${option[1]}`;
 		}).join('; ');
 	}
